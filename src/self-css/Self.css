@@ -1,0 +1,30 @@
+.name{
+    color: blue;
+}
+/* .student{
+    margin-top: 30%;
+} */
+table{
+    border-collapse: collapse;
+    width: 300px;
+    height: 100px;
+    /* margin-bottom: 20px;
+   margin-left: 30%; */
+  
+    
+}
+tr:nth-child(odd){
+    background-color: rgb(201, 199, 199);
+}
+table tr th{
+    width: 100px;
+}
+.card{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.h1{
+    background-color: yellow;
+}

@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+
+}
+.app-cointainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qr-code-img{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    color:#555;
+    font-size: 15px;
+    font-weight: 500;
+}
+input[type="text"]{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+}
+input[type="number"]{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+}
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    /* background-color: grey; */
+    color: #fff;
+    border: none;
+    border-radius:5px ;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button.generater-button{
+    background-color: blue;
+}
+button.generater-button:disabled{
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+button.download-button{
+    background-color: green;
+    margin-left: 10px;
+}
+button.download-button:hover{
+    background-color: rgb(1, 66, 1);
+}
+.app-cointainer h1{
+    font-weight: 600px;
+    font-size: 18px;
+    color: #3498db;
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px;
+}
+p{
+    margin-top: 30px;
+    color: #3498db;
+}
